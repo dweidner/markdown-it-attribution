@@ -1,0 +1,18 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "semi": ["error", "always"]
+  },
+  "overrides": [{
+    "files": [
+      "test/**/*.js"
+    ],
+    "env": {
+      "mocha": true
+    }
+  }]
+}

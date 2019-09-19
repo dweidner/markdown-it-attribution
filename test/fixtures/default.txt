@@ -1,0 +1,132 @@
+Attribution after a soft break
+.
+> That's one small step for [a] man, one giant leap for mankind.  
+> — Neil Armstrong (1969, July 21)
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>That's one small step for [a] man, one giant leap for mankind.</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Neil Armstrong (1969, July 21)</figcaption>
+</figure>
+.
+
+
+
+Attribution in a separate paragraph
+.
+> That's one small step for [a] man, one giant leap for mankind.
+>
+> — Neil Armstrong (1969, July 21)
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>That's one small step for [a] man, one giant leap for mankind.</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Neil Armstrong (1969, July 21)</figcaption>
+</figure>
+.
+
+
+
+Attribution with url
+.
+> That's one small step for [a] man, one giant leap for mankind.  
+> — Armstrong, N. (1969, July 21). Neil Armstrong. Retrieved from https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk
+.
+<figure class="c-blockquote">
+<blockquote cite="https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk">
+<p>That's one small step for [a] man, one giant leap for mankind.</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Armstrong, N. (1969, July 21). Neil Armstrong. Retrieved from https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk</figcaption>
+</figure>
+.
+
+
+
+Attribution with inline elements
+.
+> That's one small step for [a] man, one giant leap for mankind.  
+> — Armstrong, N. (1969, July 21). [Wikipedia: Neil Armstrong](https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk).
+.
+<figure class="c-blockquote">
+<blockquote cite="https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk">
+<p>That's one small step for [a] man, one giant leap for mankind.</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Armstrong, N. (1969, July 21). <a href="https://en.wikipedia.org/wiki/Neil_Armstrong#First_Moon_walk">Wikipedia: Neil Armstrong</a>.</figcaption>
+</figure>
+.
+
+
+
+Block quote with multiple paragraphs and attribution
+.
+> We choose to go to the Moon! We choose to go to the Moon...
+>
+> We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too.
+> 
+> — Kennedy, J. F. (1962, September 12)
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>We choose to go to the Moon! We choose to go to the Moon...</p>
+<p>We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too.</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Kennedy, J. F. (1962, September 12)</figcaption>
+</figure>
+.
+
+
+
+Nested block quote with attribution
+.
+> Root block quote
+> — Attribution
+>> Nested block quote
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>Root block quote</p>
+<blockquote>
+<p>Nested block quote</p>
+</blockquote>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Attribution</figcaption>
+</figure>
+.
+
+
+
+Quotation with no attribution
+.
+> Quotation
+.
+<blockquote>
+<p>Quotation</p>
+</blockquote>
+.
+
+
+
+Quotation that uses a marker in the body
+.
+> Quotation — Not an attribution line
+.
+<blockquote>
+<p>Quotation — Not an attribution line</p>
+</blockquote>
+.
+
+
+
+Quotation that uses a marker in the body and an attribution
+.
+> A thought — and its continuation
+> — Attribution
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>A thought — and its continuation</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">Attribution</p>
+</figure>
