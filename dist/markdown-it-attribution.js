@@ -28,7 +28,7 @@ module.exports = function attributionPlugin (md, options) {
     classNameContainer: 'c-blockquote',
     classNameAttribution: 'c-blockquote__attribution',
     marker: '—', // EM dash
-    removeMarker: true,
+    removeMarker: true
   };
 
   /**
@@ -64,6 +64,17 @@ module.exports = function attributionPlugin (md, options) {
    */
   function isEmpty (str) {
     return !str || (str.length === 0) || (str.trim().length === 0);
+  }
+
+  /**
+   * Determine whether the given property exists.
+   *
+   * @param {Object} obj The object to inspect.
+   * @param {string} prop The property to test for.
+   * @return {Boolean}
+   */
+  function has (obj, prop) {
+    return Object.prototype.hasOwnProperty.call(obj, prop);
   }
 
   /**
@@ -150,7 +161,7 @@ module.exports = function attributionPlugin (md, options) {
    */
   function matches (obj, props) {
     for (var prop in props) {
-      if (props.hasOwnProperty(prop) && (props[prop] !== obj[prop])) {
+      if (has(props, prop) && (props[prop] !== obj[prop])) {
         return false;
       }
     }
