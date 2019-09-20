@@ -66,6 +66,17 @@ module.exports = function attributionPlugin (md, options) {
   }
 
   /**
+   * Determine whether the given property exists.
+   *
+   * @param {Object} obj The object to inspect.
+   * @param {string} prop The property to test for.
+   * @return {Boolean}
+   */
+  function has (obj, prop) {
+    return Object.prototype.hasOwnProperty.call(obj, prop);
+  }
+
+  /**
    * Extract an url from the given string.
    *
    * @param {string} str The string to extract an url from.
@@ -149,7 +160,7 @@ module.exports = function attributionPlugin (md, options) {
    */
   function matches (obj, props) {
     for (var prop in props) {
-      if (props.hasOwnProperty(prop) && (props[prop] !== obj[prop])) {
+      if (has(props, prop) && (props[prop] !== obj[prop])) {
         return false;
       }
     }
