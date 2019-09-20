@@ -3,7 +3,7 @@
   "description": "Add attribution to your quotations.",
   "homepage": "https://github.com/dweidner/markdown-it-attribution#readme",
   "repository": "dweidner/markdown-it-attribution",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Daniel Weidner <hallo@danielweidner.de>",
   "license": "MIT",
   "keywords": [
