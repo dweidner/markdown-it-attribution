@@ -27,7 +27,7 @@ module.exports = function attributionPlugin (md, options) {
     classNameContainer: 'c-blockquote',
     classNameAttribution: 'c-blockquote__attribution',
     marker: '—', // EM dash
-    removeMarker: true,
+    removeMarker: true
   };
 
   /**
