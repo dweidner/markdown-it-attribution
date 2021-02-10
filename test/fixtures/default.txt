@@ -128,5 +128,72 @@ Quotation that uses a marker in the body and an attribution
 <blockquote>
 <p>A thought — and its continuation</p>
 </blockquote>
-<figcaption class="c-blockquote__attribution">Attribution</p>
+<figcaption class="c-blockquote__attribution">Attribution</figcaption>
 </figure>
+.
+
+
+
+Multiple blockquotes in the document
+.
+> blockquote 1
+> — citation 1
+
+paragraph one
+
+> blockquote 2
+> — citation 2
+
+paragraph two
+
+> blockquote 3
+> — citation 3
+
+paragraph three
+
+> blockquote 4
+> — citation 4
+
+paragraph four
+
+> blockquote 5
+> — citation 5
+
+paragraph five
+.
+<figure class="c-blockquote">
+<blockquote>
+<p>blockquote 1</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">citation 1</figcaption>
+</figure>
+<p>paragraph one</p>
+<figure class="c-blockquote">
+<blockquote>
+<p>blockquote 2</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">citation 2</figcaption>
+</figure>
+<p>paragraph two</p>
+<figure class="c-blockquote">
+<blockquote>
+<p>blockquote 3</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">citation 3</figcaption>
+</figure>
+<p>paragraph three</p>
+<figure class="c-blockquote">
+<blockquote>
+<p>blockquote 4</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">citation 4</figcaption>
+</figure>
+<p>paragraph four</p>
+<figure class="c-blockquote">
+<blockquote>
+<p>blockquote 5</p>
+</blockquote>
+<figcaption class="c-blockquote__attribution">citation 5</figcaption>
+</figure>
+<p>paragraph five</p>
+.
